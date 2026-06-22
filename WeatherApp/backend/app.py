@@ -13,7 +13,7 @@ OPENWEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5"
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
-        "message": "Weather API is running successfully 🚀",
+        "message": "Weather API is running successfully ",
         "status": "active",
         "endpoints": {
             "health": "/health",
