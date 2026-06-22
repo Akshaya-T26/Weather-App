@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # Flask Backend API URL
-BACKEND_BASE_URL = "http://127.0.0.1:5000"
+BACKEND_BASE_URL = "https://weather-app-qqmp.onrender.com"
 
 def get_backend_url():
     """Returns the base URL of the backend API."""
