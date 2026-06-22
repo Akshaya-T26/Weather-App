@@ -4,7 +4,7 @@ A modern, responsive, and feature-rich weather dashboard built using a **Flask R
 
 ---
 
-## 📸 Key Features
+##  Key Features
 - **City Search**: Instant search for any city globally with active loading states and invalid city validation.
 - **Detailed Current Conditions**: Displays temperature, feels-like temperature, humidity, wind speed, pressure, visibility, sunrise, and sunset times in clean metrics cards.
 - **5-Day Forecast Grid**: Grid displaying daily forecasts including minimum/maximum temperature, weather description, and official OpenWeatherMap icons.
@@ -15,7 +15,7 @@ A modern, responsive, and feature-rich weather dashboard built using a **Flask R
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 WeatherApp/
@@ -38,7 +38,7 @@ WeatherApp/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 1. **Python 3.8+** installed.
 2. **OpenWeatherMap API Key**:
@@ -47,7 +47,7 @@ WeatherApp/
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone or Copy the Project
 Ensure all files are placed in your working directory.
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏃 Running the Application
+##  Running the Application
 
 To run the application, you need to start **both** the backend Flask API and the Streamlit frontend.
 
@@ -104,7 +104,7 @@ Streamlit will automatically open the dashboard in your default browser at `http
 
 ---
 
-## 🧪 API Endpoints (Flask Backend)
+##  API Endpoints (Flask Backend)
 
 ### Current Weather Endpoint
 - **URL**: `/weather/<city>`
