@@ -3,17 +3,13 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from config import Config
 
-# Initialize Flask App
 app = Flask(__name__)
 CORS(app)
 
-# Validate config
 Config.validate()
 
 OPENWEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5"
 
-
-# ✅ HOME ROUTE (FIX for "Not Found")
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
